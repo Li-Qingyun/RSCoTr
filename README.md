@@ -2,9 +2,9 @@
 
 # RSCoTr
 
-This repo hosts the offical implementation for the paper: 
+[IEEE paper](https://ieeexplore.ieee.org/document/10401246)  |  [ResearchGate(Full Text Available)](https://www.researchgate.net/publication/377439701_Co-training_Transformer_for_Remote_Sensing_Image_Classification_Segmentation_and_Detection)  |  [Model](https://huggingface.co/Qingyun/RSCoTr)
 
-[Co-training Transformer for Remote Sensing Image Classification, Segmentation and Detection](https://ieeexplore.ieee.org/document/10401246), *IEEE Transactions on Geoscience and Remote Sensing (TGRS)*, Qingyun Li, Yushi Chen, Xin He, and Lingbo Huang.
+This repo hosts the offical implementation for the paper: **Co-training Transformer for Remote Sensing Image Classification, Segmentation and Detection**, *IEEE Transactions on Geoscience and Remote Sensing (TGRS)*, Qingyun Li, Yushi Chen, Xin He, and Lingbo Huang.
 
 The full text is also availiable at [ResearchGate](https://www.researchgate.net/publication/377439701_Co-training_Transformer_for_Remote_Sensing_Image_Classification_Segmentation_and_Detection).
 
@@ -73,9 +73,9 @@ pip install -r requirement.txt
 
 Feel free to contact me through my email (21b905003@stu.hit.edu.cn) or [github issue](https://github.com/Li-Qingyun/RSCoTr/issues). I'll continue to maintain this repo.
 
-The code is based on [OpenMMLab1.0 series codebase](https://github.com/open-mmlab), including [mmcv](https://github.com/open-mmlab/mmcv), [mmcls](https://github.com/open-mmlab/mmcls), [mmdet](https://github.com/open-mmlab/mmdet) and [mmsegmentation](https://github.com/open-mmlab/mmsegmentation). Many modules refer to the implementation of [MMF](https://mmf.sh/). The model architecture benefits from the insight from [DINO](https://arxiv.org/abs/2203.03605), [Mask2Former](https://arxiv.org/abs/2112.01527), [Deformable DETR](https://arxiv.org/abs/2010.04159), and [Swin Transformer](https://arxiv.org/abs/2103.14030). Thanks for their brilliant works.
+The code is based on [OpenMMLab1.0 series toolkits](https://github.com/open-mmlab), including [mmcv](https://github.com/open-mmlab/mmcv), [mmcls](https://github.com/open-mmlab/mmcls), [mmdet](https://github.com/open-mmlab/mmdet) and [mmsegmentation](https://github.com/open-mmlab/mmsegmentation). Many modules refer to [MMF](https://mmf.sh/). The model architecture benefits from the insights of [DINO](https://arxiv.org/abs/2203.03605), [Mask2Former](https://arxiv.org/abs/2112.01527), [Deformable DETR](https://arxiv.org/abs/2010.04159), and [Swin Transformer](https://arxiv.org/abs/2103.14030). Thanks for their brilliant works.
 
-Many thanks for the [Chinese WeChat article: 遥感与深度学习:《哈工大提出同时处理遥感分类/分割/目标检测的多任务学习框架RSCoTr, 基于Transformer》](https://mp.weixin.qq.com/s/9p_fXBM1vHKLGsXlCfJbdA). There are many high-quality Chinese article about latest remote sensing papers in their channel.
+Many thanks to the [Chinese WeChat article: 遥感与深度学习:《哈工大提出同时处理遥感分类/分割/目标检测的多任务学习框架RSCoTr, 基于Transformer》](https://mp.weixin.qq.com/s/9p_fXBM1vHKLGsXlCfJbdA). There are many high-quality Chinese articles about latest remote sensing papers in their channel.
 
 ## Citation
 
