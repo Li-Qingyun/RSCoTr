@@ -1,4 +1,4 @@
-To many DDLs until June. 555
+🚀 I'm anxiously aiming to open-source my project as soon as possible—setting a flag to make it availiable this week! (I need refine the codebase slightly and organize the user guide.)
 
 # RSCoTr
 
