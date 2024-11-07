@@ -1,5 +1,3 @@
-🚀 I'm anxiously aiming to open-source my project as soon as possible—setting a flag to make it availiable this week! (I need refine the codebase slightly and organize the user guide.)
-
 # RSCoTr
 
 [IEEE paper](https://ieeexplore.ieee.org/document/10401246)  |  [ResearchGate(Full Text Available)](https://www.researchgate.net/publication/377439701_Co-training_Transformer_for_Remote_Sensing_Image_Classification_Segmentation_and_Detection)  |  [Model](https://huggingface.co/Qingyun/RSCoTr)
@@ -68,6 +66,25 @@ mim install "mmsegmentation==0.28.0"
 ```shell
 pip install -r requirement.txt
 ```
+
+## Scripts Usages
+
+The most important config is `configs/multi/MTL_slvlcls_swin-t-p4-w7_1x1_resisc&dior&potsdam.py`, which means that training the MTL model using single level feature for classification (slvlcls), and swin-t-p4-w7_1x1 as backbone, and the three datasets.
+
+```
+# Train
+python tools/train.py configs/multi/MTL_slvlcls_swin-t-p4-w7_1x1_resisc&dior&potsdam.py --load-task-pretrain --work-dir work_dirs/MTL_slvlcls_swin-t-p4-w7_1x1_resisc&dior&potsdam
+# Test
+python tools/test.py configs/multi/MTL_slvlcls_swin-t-p4-w7_1x1_resisc&dior&potsdam.py work_dirs/MTL_slvlcls_swin-t-p4-w7_1x1_resisc&dior&potsdam/latest.pth --tasks cls det seg --work-dir work_dirs/MTL_slvlcls_swin-t-p4-w7_1x1_resisc&dior&potsdam
+```
+
+NOTE: The detection results are for validation set. An additional evaluation on test set is still required. You can use `tools/train_without_det_eval.py` which will pass the slow detection evaluation while training.  
+
+`configs/multi/MTL_swin-t-p4-w7_1x1_resisc&dior&potsdam.py` is the version of using multi-level features for classification, as is reported in the paper, the performance did not get better.
+
+`configs/multi/slvl_strategies` hosts the ablation experiments of iteration strategies.
+
+`tools/inference_one_img.py` can inference the MTL model on one image for the three tasks.
 
 ## Contact and Acknowledge
 
