@@ -80,7 +80,7 @@ def build_iteration_strategy(cfg: Config, data_loaders: Dict):
     i_s = IterationStrategy(data_loaders, **strategy_kwargs)
     print(i_s.config.name)
     get_iter_list = lambda iter_s: [iter_s() for _ in range(300)]
-    _get_p_list = lambda iter_list: [iter_list.count(i) for i in range(len(self.dataloaders))]
+    _get_p_list = lambda iter_list: [iter_list.count(i) for i in range(len(data_loaders))]
     get_p_list = lambda iter_list: [val / min(_get_p_list(iter_list))
                                     for val in _get_p_list(iter_list)]
     iter_list = get_iter_list(i_s)
