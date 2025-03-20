@@ -1,10 +1,10 @@
-# RSCoTr
+<p align="center">
+  <h1 align="center">🐙 RSCoTr</h1>
+</p>
 
-[IEEE paper](https://ieeexplore.ieee.org/document/10401246)  |  [ResearchGate(Full Text Available)](https://www.researchgate.net/publication/377439701_Co-training_Transformer_for_Remote_Sensing_Image_Classification_Segmentation_and_Detection)  |  [Model](https://huggingface.co/Qingyun/RSCoTr)
+[IEEE paper](https://ieeexplore.ieee.org/document/10401246)  |  [Model](https://huggingface.co/Qingyun/RSCoTr)
 
 This repo hosts the offical implementation for the paper: **Co-training Transformer for Remote Sensing Image Classification, Segmentation and Detection**, *IEEE Transactions on Geoscience and Remote Sensing (TGRS)*, Qingyun Li, Yushi Chen, Xin He, and Lingbo Huang.
-
-The full text is also availiable at [ResearchGate](https://www.researchgate.net/publication/377439701_Co-training_Transformer_for_Remote_Sensing_Image_Classification_Segmentation_and_Detection).
 
 ### Abstract
 
