@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">🐙 RSCoTr: Co-training Transformer for Remote Sensing Image Classification, Segmentation and Detection</h1>
   <p align="center">
-      <a href='https://scholar.google.com/citations?user=TvsTun4AAAAJ' style='text-decoration: none' >Qingyun Li*</a><sup></sup>&emsp;
+      <a href='https://scholar.google.com/citations?user=TvsTun4AAAAJ' style='text-decoration: none' >Qingyun Li</a><sup></sup>&emsp;
       <a href='https://scholar.google.com/citations?user=A39S7JgAAAAJ' style='text-decoration: none' >Yushi Chen</a><sup></sup>&emsp;
       <a href='https://scholar.google.com/citations?user=WQgE8l8AAAAJ' style='text-decoration: none' >Xin He</a><sup></sup>&emsp;
       <a href='https://scholar.google.com/citations?user=3ZAovbYAAAAJ' style='text-decoration: none' >Lingbo Huang</a><sup></sup>&emsp;
