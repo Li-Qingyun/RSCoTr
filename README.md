@@ -2,9 +2,34 @@
   <h1 align="center">🐙 RSCoTr</h1>
 </p>
 
-[IEEE paper](https://ieeexplore.ieee.org/document/10401246)  |  [Model](https://huggingface.co/Qingyun/RSCoTr)
+<p align="center">
+  <h1 align="center">🐙 RSCoTr: Co-training Transformer for Remote Sensing Image Classification, Segmentation and Detection</h1>
+  <p align="center">
+      <a href='https://scholar.google.com/citations?user=TvsTun4AAAAJ' style='text-decoration: none' >Qingyun Li*</a><sup></sup>&emsp;
+      <a href='https://scholar.google.com/citations?user=A39S7JgAAAAJ' style='text-decoration: none' >Yushi Chen</a><sup></sup>&emsp;
+      <a href='https://scholar.google.com/citations?user=WQgE8l8AAAAJ' style='text-decoration: none' >Xin He</a><sup></sup>&emsp;
+      <a href='https://scholar.google.com/citations?user=3ZAovbYAAAAJ' style='text-decoration: none' >Lingbo Huang</a><sup></sup>&emsp;
+      <div align="center">
+      <a href='https://doi.org/10.1109/TGRS.2024.3354783'><img src='https://img.shields.io/badge/IEEE-10.1109%2FTGRS.2024.3354783-00629B.svg?logo=ieee&logoColor=white'></a>
+      <a href='https://huggingface.co/Qingyun/RSCoTr'><img src='https://img.shields.io/badge/HuggingFace-Model-yellow.svg?logo=HuggingFace&logoColor=white'></a>
+	  </div>
+    <p align='center'>
+        If you find our work helpful, please consider giving us a ⭐!
+    </p>
+   </p>
+</p>
 
 This repo hosts the offical implementation for the paper: **Co-training Transformer for Remote Sensing Image Classification, Segmentation and Detection**, *IEEE Transactions on Geoscience and Remote Sensing (TGRS)*, Qingyun Li, Yushi Chen, Xin He, and Lingbo Huang.
+
+> 🎉 The [**RSCoVLM**](https://github.com/VisionXLab/RSCoVLM) is out, which is the latest-generation **Co-training** model for **Remote Sensing Multi-task Learning** based on vision-language models, with more comprehensive abilities and flexibility.
+>
+> Paper: [Co-Training Vision Language Models for Remote Sensing Multi-task Learning](https://arxiv.org/abs/2511.21272)
+> 
+> Code: [https://github.com/VisionXLab/RSCoVLM](https://github.com/VisionXLab/RSCoVLM)
+> 
+> Model: [https://huggingface.co/Qingyun/RSCoVLM-7B-2512](https://huggingface.co/Qingyun/RSCoVLM-7B-2512)
+> 
+> Data: [https://huggingface.co/datasets/Qingyun/remote-sensing-sft-data](https://huggingface.co/datasets/Qingyun/remote-sensing-sft-data)
 
 ### Abstract
 
@@ -96,16 +121,39 @@ Many thanks to the [Chinese WeChat article: 遥感与深度学习:《哈工大�
 
 ## Citation
 
-```
-@article{li2024rscotr,
+If you find our paper or benchmark helpful for your research, please consider citing our paper and giving this repo a star ⭐. Thank you very much!
+
+```bibtex
+@ARTICLE{li2024rscotr,
   title={Co-training transformer for remote sensing image classification, segmentation and detection},
   author={Li, Qingyun and Chen, Yushi and He, Xin and Huang, Lingbo},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
   year={2024},
   publisher={IEEE},
   volume={62},
-  number={},
   pages={1-18},
   doi={10.1109/TGRS.2024.3354783}
+}
+
+@ARTICLE{li2026rscovlm,
+  title{Co-Training Vision-Language Models for Remote Sensing Multi-Task Learning},
+  author={Li, Qingyun and Ma, Shuran and Luo, Junwei and Yu, Yi and Zhou, Yue and Wang, Fengxiang and Lu, Xudong and Wang, Xiaoxing and He, Xin and Chen, Yushi and Yang, Xue},
+  journal={Remote Sensing},
+  volume={18},
+  year={2026},
+  number={2},
+  article-number={222},
+  url={https://www.mdpi.com/2072-4292/18/2/222},
+  issn={2072-4292},
+  doi={10.3390/rs18020222}
+}
+
+@INPROCEEDINGS{11242725,
+  title={A Simple Aerial Detection Baseline of Multimodal Language Models}, 
+  author={Li, Qingyun and He, Xin and Shu, Xinya and Yu, Yi and Chen, Dong and Chen, Yushi and Yang, Xue},
+  booktitle={IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium}, 
+  year={2025},
+  pages={6833-6837},
+  doi={10.1109/IGARSS55030.2025.11242725}
 }
 ```
