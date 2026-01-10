@@ -1,8 +1,4 @@
 <p align="center">
-  <h1 align="center">🐙 RSCoTr</h1>
-</p>
-
-<p align="center">
   <h1 align="center">🐙 RSCoTr: Co-training Transformer for Remote Sensing Image Classification, Segmentation and Detection</h1>
   <p align="center">
       <a href='https://scholar.google.com/citations?user=TvsTun4AAAAJ' style='text-decoration: none' >Qingyun Li*</a><sup></sup>&emsp;
