@@ -144,7 +144,7 @@ If you find our paper or benchmark helpful for your research, please consider ci
   doi={10.3390/rs18020222}
 }
 
-@INPROCEEDINGS{11242725,
+@INPROCEEDINGS{li2025lmmrotate,
   title={A Simple Aerial Detection Baseline of Multimodal Language Models}, 
   author={Li, Qingyun and He, Xin and Shu, Xinya and Yu, Yi and Chen, Dong and Chen, Yushi and Yang, Xue},
   booktitle={IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium}, 
