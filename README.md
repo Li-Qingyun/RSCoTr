@@ -132,7 +132,7 @@ If you find our paper or benchmark helpful for your research, please consider ci
 }
 
 @ARTICLE{li2026rscovlm,
-  title{Co-Training Vision-Language Models for Remote Sensing Multi-Task Learning},
+  title={Co-Training Vision-Language Models for Remote Sensing Multi-Task Learning},
   author={Li, Qingyun and Ma, Shuran and Luo, Junwei and Yu, Yi and Zhou, Yue and Wang, Fengxiang and Lu, Xudong and Wang, Xiaoxing and He, Xin and Chen, Yushi and Yang, Xue},
   journal={Remote Sensing},
   volume={18},
